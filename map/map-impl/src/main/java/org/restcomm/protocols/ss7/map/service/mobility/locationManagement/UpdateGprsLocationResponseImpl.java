@@ -91,7 +91,7 @@ public class UpdateGprsLocationResponseImpl extends MobilityMessageImpl implemen
 
     @Override
     public MAPMessageType getMessageType() {
-        return MAPMessageType.updateGprsLocation_Request;
+        return MAPMessageType.updateGprsLocation_Response;
     }
 
     @Override
